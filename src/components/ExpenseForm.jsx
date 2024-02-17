@@ -6,11 +6,11 @@ const ExpenseForm =(props) =>{
     const [errors,setErrors]=useState({})
     const handleSubmit =(e) =>{
         e.preventDefault()
-        axios.post('https://shafeeqexpensetracker-api.onrender.com/add-entry',{"title":title,"amount":parseInt(amount)})
-        .then(res => {
-        console.log(res.data)
-   })
-  .catch(err => console.log(err))
+//         axios.post('https://shafeeqexpensetracker-api.onrender.com/add-entry',{"title":title,"amount":parseInt(amount)})
+//         .then(res => {
+//         console.log(res.data)
+//    })
+//   .catch(err => console.log(err))
 
         console.log(title,amount)
         
