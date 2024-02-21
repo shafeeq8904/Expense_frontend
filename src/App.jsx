@@ -32,7 +32,7 @@ useEffect(() => {
   axios.get('https://shafeeqexpensetracker-api.onrender.com/get-entries')
   .then(res => {
     console.log(res.data)
-    setExpense(res.data)
+    // setExpense(res.data)
 
   })
   .catch(err => console.log(err))
